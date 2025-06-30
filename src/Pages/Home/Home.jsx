@@ -5,6 +5,7 @@ import EventPage from "../EventGrid/EventGrid";
 import Footer from "../../Components/Footer/Footer";
 import Video from "../Video/Video";
 import { motion } from "framer-motion";
+import EventGridInline from "../OurServices/OurServices";
 
 const Home = () => {
   return (
@@ -148,6 +149,7 @@ const Home = () => {
         </div>
         <StatsSection />
         <EventPage />
+        <EventGridInline />
         <Video />
         <Footer />
       </motion.div>

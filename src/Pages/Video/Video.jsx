@@ -3,7 +3,7 @@ import React from "react";
 const Video = () => {
   return (
     <div style={{ textAlign: "center", marginTop: "150px" }}>
-      <h2 style={{ color: "#8628dc" }}>Grand Program</h2>
+      <h1 style={{ color: "#800080" }}>Grand Program</h1>
       <iframe
         width="1060"
         height="715"
